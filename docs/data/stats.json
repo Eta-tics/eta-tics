@@ -1,81 +1,89 @@
 {
-  "total_posts": 4858,
-  "total_likes": 8224,
-  "total_comments": 19865,
-  "unique_universities": 135,
-  "updated_at": "2026-07-02T00:21:55.009633",
+  "total_posts": 5087,
+  "total_likes": 8439,
+  "total_comments": 20808,
+  "unique_universities": 137,
+  "updated_at": "2026-07-02T00:32:24.818386",
   "universities": [
     {
       "name": "서울대",
-      "post_count": 620,
-      "total_likes": 1804,
-      "total_comments": 2683,
-      "avg_likes": 2.91,
-      "avg_comments": 4.33
+      "post_count": 634,
+      "total_likes": 1834,
+      "total_comments": 2734,
+      "avg_likes": 2.89,
+      "avg_comments": 4.31
     },
     {
       "name": "한양대 서울캠",
-      "post_count": 309,
-      "total_likes": 658,
-      "total_comments": 942,
-      "avg_likes": 2.13,
-      "avg_comments": 3.05
+      "post_count": 343,
+      "total_likes": 703,
+      "total_comments": 1072,
+      "avg_likes": 2.05,
+      "avg_comments": 3.13
     },
     {
       "name": "성균관대 자과캠",
-      "post_count": 252,
-      "total_likes": 358,
-      "total_comments": 794,
-      "avg_likes": 1.42,
-      "avg_comments": 3.15
+      "post_count": 273,
+      "total_likes": 399,
+      "total_comments": 880,
+      "avg_likes": 1.46,
+      "avg_comments": 3.22
     },
     {
       "name": "경희대 국제캠",
-      "post_count": 241,
-      "total_likes": 526,
-      "total_comments": 855,
-      "avg_likes": 2.18,
-      "avg_comments": 3.55
+      "post_count": 244,
+      "total_likes": 534,
+      "total_comments": 872,
+      "avg_likes": 2.19,
+      "avg_comments": 3.57
     },
     {
       "name": "전남대 광주캠",
-      "post_count": 219,
-      "total_likes": 344,
-      "total_comments": 878,
-      "avg_likes": 1.57,
+      "post_count": 225,
+      "total_likes": 345,
+      "total_comments": 903,
+      "avg_likes": 1.53,
       "avg_comments": 4.01
     },
     {
+      "name": "영남대",
+      "post_count": 200,
+      "total_likes": 272,
+      "total_comments": 703,
+      "avg_likes": 1.36,
+      "avg_comments": 3.52
+    },
+    {
       "name": "한국외대 서울캠",
-      "post_count": 195,
-      "total_likes": 303,
-      "total_comments": 666,
-      "avg_likes": 1.55,
-      "avg_comments": 3.42
+      "post_count": 200,
+      "total_likes": 305,
+      "total_comments": 676,
+      "avg_likes": 1.52,
+      "avg_comments": 3.38
     },
     {
       "name": "강원대 춘천캠",
-      "post_count": 194,
+      "post_count": 197,
       "total_likes": 386,
-      "total_comments": 744,
-      "avg_likes": 1.99,
-      "avg_comments": 3.84
-    },
-    {
-      "name": "영남대",
-      "post_count": 172,
-      "total_likes": 254,
-      "total_comments": 580,
-      "avg_likes": 1.48,
-      "avg_comments": 3.37
+      "total_comments": 751,
+      "avg_likes": 1.96,
+      "avg_comments": 3.81
     },
     {
       "name": "중앙대 서울캠",
-      "post_count": 143,
+      "post_count": 151,
       "total_likes": 236,
-      "total_comments": 561,
-      "avg_likes": 1.65,
-      "avg_comments": 3.92
+      "total_comments": 572,
+      "avg_likes": 1.56,
+      "avg_comments": 3.79
+    },
+    {
+      "name": "부산대",
+      "post_count": 138,
+      "total_likes": 121,
+      "total_comments": 550,
+      "avg_likes": 0.88,
+      "avg_comments": 3.99
     },
     {
       "name": "경북대 대구캠",
@@ -86,28 +94,20 @@
       "avg_comments": 4.68
     },
     {
-      "name": "경희대 서울캠",
-      "post_count": 124,
-      "total_likes": 148,
-      "total_comments": 536,
-      "avg_likes": 1.19,
-      "avg_comments": 4.32
-    },
-    {
-      "name": "부산대",
-      "post_count": 124,
-      "total_likes": 120,
-      "total_comments": 499,
-      "avg_likes": 0.97,
-      "avg_comments": 4.02
-    },
-    {
       "name": "연세대 신촌캠",
-      "post_count": 122,
-      "total_likes": 219,
-      "total_comments": 572,
-      "avg_likes": 1.8,
-      "avg_comments": 4.69
+      "post_count": 132,
+      "total_likes": 231,
+      "total_comments": 625,
+      "avg_likes": 1.75,
+      "avg_comments": 4.73
+    },
+    {
+      "name": "경희대 서울캠",
+      "post_count": 125,
+      "total_likes": 151,
+      "total_comments": 536,
+      "avg_likes": 1.21,
+      "avg_comments": 4.29
     },
     {
       "name": "동국대 서울캠",
@@ -119,43 +119,43 @@
     },
     {
       "name": "한국외대 글로벌캠",
-      "post_count": 98,
+      "post_count": 104,
       "total_likes": 78,
-      "total_comments": 313,
-      "avg_likes": 0.8,
-      "avg_comments": 3.19
+      "total_comments": 352,
+      "avg_likes": 0.75,
+      "avg_comments": 3.38
     },
     {
       "name": "홍익대 서울캠",
-      "post_count": 97,
+      "post_count": 100,
       "total_likes": 130,
-      "total_comments": 376,
-      "avg_likes": 1.34,
-      "avg_comments": 3.88
+      "total_comments": 382,
+      "avg_likes": 1.3,
+      "avg_comments": 3.82
     },
     {
       "name": "서울과기대",
-      "post_count": 84,
+      "post_count": 86,
       "total_likes": 93,
-      "total_comments": 322,
-      "avg_likes": 1.11,
-      "avg_comments": 3.83
-    },
-    {
-      "name": "계명대",
-      "post_count": 81,
-      "total_likes": 57,
-      "total_comments": 378,
-      "avg_likes": 0.7,
-      "avg_comments": 4.67
+      "total_comments": 323,
+      "avg_likes": 1.08,
+      "avg_comments": 3.76
     },
     {
       "name": "대구가톨릭대",
-      "post_count": 77,
+      "post_count": 82,
       "total_likes": 87,
-      "total_comments": 286,
-      "avg_likes": 1.13,
-      "avg_comments": 3.71
+      "total_comments": 305,
+      "avg_likes": 1.06,
+      "avg_comments": 3.72
+    },
+    {
+      "name": "계명대",
+      "post_count": 82,
+      "total_likes": 57,
+      "total_comments": 389,
+      "avg_likes": 0.7,
+      "avg_comments": 4.74
     },
     {
       "name": "고려대 서울캠",
@@ -174,6 +174,14 @@
       "avg_comments": 4.18
     },
     {
+      "name": "서강대",
+      "post_count": 60,
+      "total_likes": 136,
+      "total_comments": 316,
+      "avg_likes": 2.27,
+      "avg_comments": 5.27
+    },
+    {
       "name": "단국대 죽전캠",
       "post_count": 59,
       "total_likes": 76,
@@ -182,20 +190,28 @@
       "avg_comments": 3.59
     },
     {
-      "name": "서강대",
-      "post_count": 56,
-      "total_likes": 134,
-      "total_comments": 294,
-      "avg_likes": 2.39,
-      "avg_comments": 5.25
+      "name": "국립강릉원주대 강릉캠",
+      "post_count": 55,
+      "total_likes": 75,
+      "total_comments": 130,
+      "avg_likes": 1.36,
+      "avg_comments": 2.36
     },
     {
-      "name": "국립강릉원주대 강릉캠",
+      "name": "서울시립대",
       "post_count": 53,
-      "total_likes": 68,
-      "total_comments": 130,
-      "avg_likes": 1.28,
-      "avg_comments": 2.45
+      "total_likes": 59,
+      "total_comments": 141,
+      "avg_likes": 1.11,
+      "avg_comments": 2.66
+    },
+    {
+      "name": "국립한밭대",
+      "post_count": 53,
+      "total_likes": 46,
+      "total_comments": 364,
+      "avg_likes": 0.87,
+      "avg_comments": 6.87
     },
     {
       "name": "세종대",
@@ -204,22 +220,6 @@
       "total_comments": 190,
       "avg_likes": 1.4,
       "avg_comments": 3.65
-    },
-    {
-      "name": "서울시립대",
-      "post_count": 51,
-      "total_likes": 59,
-      "total_comments": 130,
-      "avg_likes": 1.16,
-      "avg_comments": 2.55
-    },
-    {
-      "name": "국립한밭대",
-      "post_count": 51,
-      "total_likes": 45,
-      "total_comments": 362,
-      "avg_likes": 0.88,
-      "avg_comments": 7.1
     },
     {
       "name": "삼육보건대",
@@ -239,51 +239,67 @@
     },
     {
       "name": "숙명여대",
-      "post_count": 38,
-      "total_likes": 82,
-      "total_comments": 314,
-      "avg_likes": 2.16,
-      "avg_comments": 8.26
-    },
-    {
-      "name": "경북대 상주캠",
-      "post_count": 38,
-      "total_likes": 50,
-      "total_comments": 159,
-      "avg_likes": 1.32,
-      "avg_comments": 4.18
-    },
-    {
-      "name": "가톨릭대",
-      "post_count": 38,
-      "total_likes": 23,
-      "total_comments": 94,
-      "avg_likes": 0.61,
-      "avg_comments": 2.47
+      "post_count": 42,
+      "total_likes": 85,
+      "total_comments": 338,
+      "avg_likes": 2.02,
+      "avg_comments": 8.05
     },
     {
       "name": "서울여대",
-      "post_count": 37,
-      "total_likes": 41,
-      "total_comments": 273,
-      "avg_likes": 1.11,
-      "avg_comments": 7.38
+      "post_count": 42,
+      "total_likes": 48,
+      "total_comments": 318,
+      "avg_likes": 1.14,
+      "avg_comments": 7.57
+    },
+    {
+      "name": "가톨릭대",
+      "post_count": 40,
+      "total_likes": 24,
+      "total_comments": 101,
+      "avg_likes": 0.6,
+      "avg_comments": 2.52
+    },
+    {
+      "name": "경북대 상주캠",
+      "post_count": 39,
+      "total_likes": 50,
+      "total_comments": 166,
+      "avg_likes": 1.28,
+      "avg_comments": 4.26
     },
     {
       "name": "국립창원대",
-      "post_count": 32,
-      "total_likes": 23,
-      "total_comments": 118,
-      "avg_likes": 0.72,
-      "avg_comments": 3.69
+      "post_count": 34,
+      "total_likes": 26,
+      "total_comments": 130,
+      "avg_likes": 0.76,
+      "avg_comments": 3.82
     },
     {
       "name": "KAIST",
+      "post_count": 34,
+      "total_likes": 78,
+      "total_comments": 169,
+      "avg_likes": 2.29,
+      "avg_comments": 4.97
+    },
+    {
+      "name": "건국대 GLOCAL캠",
+      "post_count": 32,
+      "total_likes": 32,
+      "total_comments": 60,
+      "avg_likes": 1.0,
+      "avg_comments": 1.88
+    },
+    {
+      "name": "이화여대",
       "post_count": 31,
-      "total_likes": 76,
-      "total_comments": 166,
-      "avg_likes": 2.45,
-      "avg_comments": 5.35
+      "total_likes": 60,
+      "total_comments": 267,
+      "avg_likes": 1.94,
+      "avg_comments": 8.61
     },
     {
       "name": "국립한국교통대",
@@ -294,36 +310,44 @@
       "avg_comments": 4.81
     },
     {
-      "name": "건국대 GLOCAL캠",
-      "post_count": 30,
-      "total_likes": 30,
-      "total_comments": 56,
-      "avg_likes": 1.0,
-      "avg_comments": 1.87
-    },
-    {
       "name": "인하대",
-      "post_count": 28,
+      "post_count": 29,
       "total_likes": 61,
       "total_comments": 73,
-      "avg_likes": 2.18,
-      "avg_comments": 2.61
+      "avg_likes": 2.1,
+      "avg_comments": 2.52
     },
     {
       "name": "성균관대 인사캠",
+      "post_count": 28,
+      "total_likes": 31,
+      "total_comments": 95,
+      "avg_likes": 1.11,
+      "avg_comments": 3.39
+    },
+    {
+      "name": "경인교대",
       "post_count": 25,
-      "total_likes": 29,
-      "total_comments": 82,
-      "avg_likes": 1.16,
-      "avg_comments": 3.28
+      "total_likes": 23,
+      "total_comments": 84,
+      "avg_likes": 0.92,
+      "avg_comments": 3.36
     },
     {
       "name": "아주대",
-      "post_count": 24,
+      "post_count": 25,
       "total_likes": 19,
       "total_comments": 93,
-      "avg_likes": 0.79,
-      "avg_comments": 3.88
+      "avg_likes": 0.76,
+      "avg_comments": 3.72
+    },
+    {
+      "name": "숭실대",
+      "post_count": 24,
+      "total_likes": 43,
+      "total_comments": 78,
+      "avg_likes": 1.79,
+      "avg_comments": 3.25
     },
     {
       "name": "전북대",
@@ -340,30 +364,6 @@
       "total_comments": 124,
       "avg_likes": 0.95,
       "avg_comments": 5.64
-    },
-    {
-      "name": "경인교대",
-      "post_count": 21,
-      "total_likes": 22,
-      "total_comments": 71,
-      "avg_likes": 1.05,
-      "avg_comments": 3.38
-    },
-    {
-      "name": "숭실대",
-      "post_count": 21,
-      "total_likes": 42,
-      "total_comments": 69,
-      "avg_likes": 2.0,
-      "avg_comments": 3.29
-    },
-    {
-      "name": "이화여대",
-      "post_count": 21,
-      "total_likes": 52,
-      "total_comments": 207,
-      "avg_likes": 2.48,
-      "avg_comments": 9.86
     },
     {
       "name": "한국항공대",
@@ -439,11 +439,11 @@
     },
     {
       "name": "대구경북과기원",
-      "post_count": 11,
-      "total_likes": 8,
-      "total_comments": 53,
-      "avg_likes": 0.73,
-      "avg_comments": 4.82
+      "post_count": 13,
+      "total_likes": 9,
+      "total_comments": 67,
+      "avg_likes": 0.69,
+      "avg_comments": 5.15
     },
     {
       "name": "경상국립대",
@@ -478,6 +478,14 @@
       "avg_comments": 4.56
     },
     {
+      "name": "국립금오공대",
+      "post_count": 9,
+      "total_likes": 1,
+      "total_comments": 55,
+      "avg_likes": 0.11,
+      "avg_comments": 6.11
+    },
+    {
       "name": "동의대",
       "post_count": 9,
       "total_likes": 2,
@@ -502,12 +510,12 @@
       "avg_comments": 3.0
     },
     {
-      "name": "국립금오공대",
-      "post_count": 8,
-      "total_likes": 1,
-      "total_comments": 52,
-      "avg_likes": 0.12,
-      "avg_comments": 6.5
+      "name": "KENTECH",
+      "post_count": 9,
+      "total_likes": 10,
+      "total_comments": 87,
+      "avg_likes": 1.11,
+      "avg_comments": 9.67
     },
     {
       "name": "상명대 서울캠",
@@ -526,36 +534,36 @@
       "avg_comments": 4.71
     },
     {
+      "name": "삼육대",
+      "post_count": 7,
+      "total_likes": 12,
+      "total_comments": 30,
+      "avg_likes": 1.71,
+      "avg_comments": 4.29
+    },
+    {
+      "name": "전남대 여수캠",
+      "post_count": 7,
+      "total_likes": 13,
+      "total_comments": 36,
+      "avg_likes": 1.86,
+      "avg_comments": 5.14
+    },
+    {
+      "name": "건국대 서울캠",
+      "post_count": 7,
+      "total_likes": 7,
+      "total_comments": 39,
+      "avg_likes": 1.0,
+      "avg_comments": 5.57
+    },
+    {
       "name": "부산외대",
       "post_count": 7,
       "total_likes": 52,
       "total_comments": 36,
       "avg_likes": 7.43,
       "avg_comments": 5.14
-    },
-    {
-      "name": "KENTECH",
-      "post_count": 7,
-      "total_likes": 6,
-      "total_comments": 71,
-      "avg_likes": 0.86,
-      "avg_comments": 10.14
-    },
-    {
-      "name": "삼육대",
-      "post_count": 6,
-      "total_likes": 11,
-      "total_comments": 25,
-      "avg_likes": 1.83,
-      "avg_comments": 4.17
-    },
-    {
-      "name": "전남대 여수캠",
-      "post_count": 6,
-      "total_likes": 11,
-      "total_comments": 29,
-      "avg_likes": 1.83,
-      "avg_comments": 4.83
     },
     {
       "name": "한국공학대",
@@ -566,12 +574,12 @@
       "avg_comments": 4.33
     },
     {
-      "name": "건국대 서울캠",
+      "name": "동덕여대",
       "post_count": 6,
-      "total_likes": 7,
-      "total_comments": 39,
-      "avg_likes": 1.17,
-      "avg_comments": 6.5
+      "total_likes": 28,
+      "total_comments": 92,
+      "avg_likes": 4.67,
+      "avg_comments": 15.33
     },
     {
       "name": "수원대",
@@ -604,14 +612,6 @@
       "total_comments": 56,
       "avg_likes": 0.8,
       "avg_comments": 11.2
-    },
-    {
-      "name": "동덕여대",
-      "post_count": 5,
-      "total_likes": 24,
-      "total_comments": 79,
-      "avg_likes": 4.8,
-      "avg_comments": 15.8
     },
     {
       "name": "백석대",
@@ -702,6 +702,14 @@
       "avg_comments": 2.25
     },
     {
+      "name": "대구한의대",
+      "post_count": 4,
+      "total_likes": 0,
+      "total_comments": 27,
+      "avg_likes": 0.0,
+      "avg_comments": 6.75
+    },
+    {
       "name": "한라대",
       "post_count": 4,
       "total_likes": 2,
@@ -758,12 +766,12 @@
       "avg_comments": 5.0
     },
     {
-      "name": "대구한의대",
+      "name": "고려대 세종캠",
       "post_count": 3,
       "total_likes": 0,
-      "total_comments": 23,
+      "total_comments": 4,
       "avg_likes": 0.0,
-      "avg_comments": 7.67
+      "avg_comments": 1.33
     },
     {
       "name": "성신여대",
@@ -1084,10 +1092,18 @@
       "total_comments": 0,
       "avg_likes": 0.0,
       "avg_comments": 0.0
+    },
+    {
+      "name": "동국대 WISE캠",
+      "post_count": 1,
+      "total_likes": 2,
+      "total_comments": 5,
+      "avg_likes": 2.0,
+      "avg_comments": 5.0
     }
   ],
   "hourly_activity": [
-    479,
+    708,
     2,
     3,
     1,
