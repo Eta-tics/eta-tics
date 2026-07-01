@@ -1,3 +1,6 @@
+# Sensitive environment variables
+.env
+
 # Configuration and state
 config.json
 progress.json

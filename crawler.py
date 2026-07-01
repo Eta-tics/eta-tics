@@ -10,6 +10,7 @@ from datetime import datetime
 # Load configuration
 CONFIG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "config.json")
 PROGRESS_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "progress.json")
+ENV_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env")
 
 def load_config():
     if not os.path.exists(CONFIG_PATH):
@@ -17,6 +18,26 @@ def load_config():
         sys.exit(1)
     with open(CONFIG_PATH, "r", encoding="utf-8") as f:
         return json.load(f)
+
+def load_dotenv():
+    if not os.path.exists(ENV_PATH):
+        print(f"[!] Warning: .env file not found at {ENV_PATH}. Proceeding with config-only headers.")
+        return {}
+    env_vars = {}
+    try:
+        with open(ENV_PATH, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith("#"):
+                    continue
+                if "=" in line:
+                    key, val = line.split("=", 1)
+                    key = key.strip()
+                    val = val.strip().strip('"').strip("'")
+                    env_vars[key] = val
+    except Exception as e:
+        print(f"[!] Warning: Error reading .env file: {e}")
+    return env_vars
 
 def get_max_post_id(output_path):
     if not os.path.exists(output_path):
@@ -42,16 +63,26 @@ def get_max_post_id(output_path):
 def run_preprocess_script():
     try:
         print("[*] Running preprocessor to update statistics dashboard...")
-        # Import and run the preprocess function directly to avoid subprocess overhead
         import preprocess
         preprocess.preprocess()
     except Exception as e:
         print(f"[!] Preprocessing failed: {e}")
 
-def sync_cycle(config, output_path):
+def sync_cycle(config, env_vars, output_path):
     api_url = config.get("api_url")
     board_id = config.get("board_id")
-    headers = config.get("headers", {})
+    
+    # Deep copy headers to avoid modifying original loaded config dict
+    headers = dict(config.get("headers", {}))
+    
+    # Inject credentials from .env
+    if "EVERYTIME_COOKIE" in env_vars:
+        headers["Cookie"] = env_vars["EVERYTIME_COOKIE"]
+    if "EVERYTIME_TOKEN" in env_vars:
+        headers["x-et-token"] = env_vars["EVERYTIME_TOKEN"]
+    if "EVERYTIME_DEVICE" in env_vars:
+        headers["x-et-device"] = env_vars["EVERYTIME_DEVICE"]
+        
     delay_min = config.get("delay_min", 1.5)
     delay_max = config.get("delay_max", 3.5)
     max_retries = config.get("max_retries", 5)
@@ -117,7 +148,6 @@ def sync_cycle(config, output_path):
             print("[*] No articles returned on this page. Sync finished.")
             break
             
-        # Check items for overlap with existing data
         page_new_articles = []
         for item in items:
             item_id = item.get("id", 0)
@@ -138,22 +168,18 @@ def sync_cycle(config, output_path):
             break
             
         cursor = next_cursor
-        # Random sleep delay
         sleep_delay = random.uniform(delay_min, delay_max)
         time.sleep(sleep_delay)
         
     if new_articles:
-        # Sort new articles in ascending order of ID so they append in chronological order
         new_articles.sort(key=lambda x: x.get("id", 0))
         
-        # Save to database
         with open(output_path, "a", encoding="utf-8") as f:
             for item in new_articles:
                 f.write(json.dumps(item, ensure_ascii=False) + "\n")
                 
         print(f"[+] Successfully synced and appended {len(new_articles)} new articles.")
         
-        # Save progress details
         last_item = new_articles[-1]
         progress_data = {
             "boardId": board_id,
@@ -164,7 +190,6 @@ def sync_cycle(config, output_path):
         with open(PROGRESS_PATH, "w", encoding="utf-8") as f:
             json.dump(progress_data, f, indent=2, ensure_ascii=False)
             
-        # Trigger preprocessor to update the dashboard
         run_preprocess_script()
     else:
         print("[*] Database is already up-to-date. No new articles to sync.")
@@ -173,6 +198,7 @@ def sync_cycle(config, output_path):
 
 def main():
     config = load_config()
+    env_vars = load_dotenv()
     output_filename = config.get("output_file", "articles.jsonl")
     output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), output_filename)
     
@@ -186,7 +212,7 @@ def main():
         try:
             while True:
                 print(f"\n[*] Starting sync cycle at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-                sync_cycle(config, output_path)
+                sync_cycle(config, env_vars, output_path)
                 print(f"[*] Sleep for {interval_sec} seconds...")
                 time.sleep(interval_sec)
         except KeyboardInterrupt:
@@ -194,7 +220,7 @@ def main():
             sys.exit(0)
     else:
         print("[*] Running in SINGLE-RUN mode.")
-        sync_cycle(config, output_path)
+        sync_cycle(config, env_vars, output_path)
         print("[*] Sync Crawler completed. Exiting.")
 
 if __name__ == "__main__":
