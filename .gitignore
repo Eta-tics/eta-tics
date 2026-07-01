@@ -1,0 +1,13 @@
+# Configuration and state
+config.json
+progress.json
+articles.jsonl
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS files
+.DS_Store
+Thumbs.db
