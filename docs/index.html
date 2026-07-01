@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>에브리타임 연합게시판 대학별 통계 대시보드</title>
-  <meta name="description" content="에브리타임 연합게시판의 대학별 게시글 점유율, 추천수, 댓글수 및 시간대별 활성도를 한눈에 확인할 수 있는 통계 시각화 대시보드입니다.">
+  <meta name="description" content="에브리타임 연합게시판의 대학별 게시글 수와 시간대별 활성도를 한눈에 확인할 수 있는 통계 시각화 대시보드입니다.">
   
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,7 +30,7 @@
   <header>
     <div class="container header-container">
       <div class="logo">
-        <span class="logo-emoji">📊</span>
+        <i class="fa-solid fa-chart-simple logo-icon"></i>
         <div class="logo-text">
           <h1>EVERYTIME</h1>
           <p>Union Board Analytics</p>
@@ -52,7 +52,7 @@
     <section class="intro-section">
       <div class="badge">실시간 데이터 통계</div>
       <h2 class="section-title">연합게시판 대학별 활동 분석 대시보드</h2>
-      <p class="section-desc">연합게시판 내 대학들의 참여도와 반응 수치를 집계하여 활성도 순위, 작성 시간대 패턴 등을 종합 시각화합니다.</p>
+      <p class="section-desc">연합게시판 내 대학들의 참여도를 집계하여 활성도 순위, 작성 시간대 패턴 등을 종합 시각화합니다.</p>
     </section>
 
     <!-- Dashboard stats widgets -->
@@ -72,86 +72,45 @@
         </div>
       </div>
       <div class="stat-card">
-        <div class="stat-icon"><i class="fa-solid fa-heart"></i></div>
+        <div class="stat-icon"><i class="fa-solid fa-arrows-rotate"></i></div>
         <div class="stat-info">
-          <span class="stat-label">누적 추천 수</span>
-          <span class="stat-value" id="val-total-likes">-</span>
-        </div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-icon"><i class="fa-solid fa-comments"></i></div>
-        <div class="stat-info">
-          <span class="stat-label">누적 댓글 수</span>
-          <span class="stat-value" id="val-total-comments">-</span>
+          <span class="stat-label">최근 업데이트</span>
+          <span class="stat-value" id="val-last-update" style="font-size: 15px; font-weight: 600; font-family: sans-serif; line-height: 1.8;">-</span>
         </div>
       </div>
     </section>
 
-    <!-- Dashboard Main Visual Charts Grid -->
-    <div class="dashboard-layout">
-      <!-- Left: Charts Column -->
-      <div class="charts-column">
-        <!-- Top 10 Universities Chart -->
-        <div class="chart-card">
-          <div class="chart-header">
-            <h3><i class="fa-solid fa-chart-bar"></i> 게시글 수 상위 10개 대학</h3>
-            <span class="chart-subtitle">가장 많은 글이 업로드된 대학교</span>
-          </div>
-          <div class="chart-body">
-            <div id="chart-top-univs"></div>
-          </div>
+    <!-- Dashboard Main Visual Charts Grid (Side by side charts) -->
+    <section class="dashboard-layout">
+      <!-- Top 10 Universities Chart -->
+      <div class="chart-card">
+        <div class="chart-header">
+          <h3><i class="fa-solid fa-chart-bar"></i> 게시글 수 상위 10개 대학</h3>
+          <span class="chart-subtitle">가장 많은 글이 업로드된 대학교</span>
         </div>
-
-        <!-- Two columns for secondary charts -->
-        <div class="secondary-charts-grid">
-          <!-- Hourly Posting Trend -->
-          <div class="chart-card">
-            <div class="chart-header">
-              <h3><i class="fa-solid fa-chart-line"></i> 시간대별 게시글 분포</h3>
-              <span class="chart-subtitle">하루 중 글 작성이 활발한 시간대</span>
-            </div>
-            <div class="chart-body">
-              <div id="chart-hourly-trend"></div>
-            </div>
-          </div>
-
-          <!-- Engagement Share Chart -->
-          <div class="chart-card">
-            <div class="chart-header">
-              <h3><i class="fa-solid fa-chart-pie"></i> 게시판 전체 반응도 점유율</h3>
-              <span class="chart-subtitle">누적 추천수 vs 누적 댓글수 비율</span>
-            </div>
-            <div class="chart-body flex-center">
-              <div id="chart-engagement-share"></div>
-            </div>
-          </div>
+        <div class="chart-body">
+          <div id="chart-top-univs"></div>
         </div>
       </div>
 
-      <!-- Right: Highlights Sidebar -->
-      <div class="sidebar-column">
-        <div class="sidebar-card">
-          <div class="sidebar-header">
-            <h3><i class="fa-solid fa-fire"></i> 화제의 게시글 TOP 5</h3>
-            <span class="sidebar-subtitle">게시판 내 최다 추천 반응 획득</span>
-          </div>
-          <div class="highlights-list" id="highlights-list">
-            <!-- Populated by JS -->
-            <div class="loading-small">
-              <div class="spinner-small"></div>
-              <span>로딩 중...</span>
-            </div>
-          </div>
+      <!-- Hourly Posting Trend -->
+      <div class="chart-card">
+        <div class="chart-header">
+          <h3><i class="fa-solid fa-chart-line"></i> 시간대별 게시글 분포</h3>
+          <span class="chart-subtitle">하루 중 글 작성이 활발한 시간대</span>
+        </div>
+        <div class="chart-body">
+          <div id="chart-hourly-trend"></div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- Leaderboard Table Section -->
     <section class="leaderboard-section">
       <div class="leaderboard-header">
         <div class="leaderboard-title-group">
           <h3><i class="fa-solid fa-list-ol"></i> 대학별 활성도 종합 순위표</h3>
-          <span class="section-subtitle">각 대학별 전체 게시글 수, 추천수 및 댓글수 현황</span>
+          <span class="section-subtitle">각 대학별 전체 게시글 수 현황</span>
         </div>
         <div class="table-search">
           <i class="fa-solid fa-magnifying-glass table-search-icon"></i>
@@ -166,16 +125,12 @@
               <th class="col-rank">순위</th>
               <th class="col-name">대학교</th>
               <th class="col-count sortable" data-sort="post_count">작성된 글 수 <i class="fa-solid fa-sort-down sort-indicator"></i></th>
-              <th class="col-likes sortable" data-sort="total_likes">누적 추천 <i class="fa-solid fa-sort"></i></th>
-              <th class="col-comments sortable" data-sort="total_comments">누적 댓글 <i class="fa-solid fa-sort"></i></th>
-              <th class="col-avg-likes sortable" data-sort="avg_likes">평균 추천 <i class="fa-solid fa-sort"></i></th>
-              <th class="col-avg-comments sortable" data-sort="avg_comments">평균 댓글 <i class="fa-solid fa-sort"></i></th>
             </tr>
           </thead>
           <tbody id="leaderboard-tbody">
             <!-- Populated by JS -->
             <tr>
-              <td colspan="7" class="loading-state-row">
+              <td colspan="3" class="loading-state-row">
                 <div class="spinner"></div>
                 <p>통계 데이터를 구성하고 있습니다...</p>
               </td>
@@ -193,40 +148,6 @@
       <p class="footer-note">본 분석 페이지는 에브리타임 연합게시판에서 수집된 익명화 데이터를 기반으로 통계적인 인사이트만을 가공하여 정적 시각화로 제공합니다.</p>
     </div>
   </footer>
-
-  <!-- Detail Modal for Highlight Posts -->
-  <div class="modal-backdrop" id="detail-modal" style="display: none;">
-    <div class="modal-card">
-      <div class="modal-header">
-        <div class="writer-info">
-          <img src="https://cf-fpi.everytime.kr/0.png" alt="Profile" class="modal-writer-pic" id="modal-writer-img">
-          <div class="writer-meta">
-            <span class="modal-writer-name" id="modal-writer-name">익명</span>
-            <span class="modal-school-badge" id="modal-school">학교명</span>
-          </div>
-        </div>
-        <button class="btn-close-modal" id="modal-close-btn" aria-label="Close modal">
-          <i class="fa-solid fa-xmark"></i>
-        </button>
-      </div>
-      <div class="modal-body">
-        <h3 class="modal-title" id="modal-title">게시글 제목</h3>
-        <div class="modal-time" id="modal-time"><i class="fa-regular fa-clock"></i> 2026-07-01 00:00:00</div>
-        <div class="modal-text" id="modal-text">게시글 상세 내용...</div>
-      </div>
-      <div class="modal-footer">
-        <div class="modal-stats">
-          <span class="stat-badge vote-badge">
-            <i class="fa-solid fa-heart"></i> 추천 <span id="modal-votes">0</span>
-          </span>
-          <span class="stat-badge comment-badge">
-            <i class="fa-solid fa-comment"></i> 댓글 <span id="modal-comments">0</span>
-          </span>
-        </div>
-        <span class="modal-id-badge">ID: #<span id="modal-article-id">000</span></span>
-      </div>
-    </div>
-  </div>
 
   <!-- Custom script -->
   <script src="app.js"></script>
