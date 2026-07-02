@@ -16,7 +16,7 @@ def load_config():
     if not os.path.exists(CONFIG_PATH):
         print(f"Error: Configuration file not found at {CONFIG_PATH}")
         sys.exit(1)
-    with open(CONFIG_PATH, "r", encoding="utf-8") as f:
+    with open(CONFIG_PATH, "r", encoding="utf-8", errors="replace") as f:
         return json.load(f)
 
 def load_dotenv():
@@ -25,7 +25,7 @@ def load_dotenv():
         return {}
     env_vars = {}
     try:
-        with open(ENV_PATH, "r", encoding="utf-8") as f:
+        with open(ENV_PATH, "r", encoding="utf-8", errors="replace") as f:
             for line in f:
                 line = line.strip()
                 if not line or line.startswith("#"):
@@ -44,7 +44,7 @@ def get_max_post_id(output_path):
         return 0
     max_id = 0
     try:
-        with open(output_path, "r", encoding="utf-8") as f:
+        with open(output_path, "r", encoding="utf-8", errors="replace") as f:
             for line in f:
                 line = line.strip()
                 if not line:
@@ -174,7 +174,8 @@ def sync_cycle(config, env_vars, output_path):
     if new_articles:
         new_articles.sort(key=lambda x: x.get("id", 0))
         
-        with open(output_path, "a", encoding="utf-8") as f:
+        # Use errors="replace" to handle unmatched surrogates in textPreview from the API
+        with open(output_path, "a", encoding="utf-8", errors="replace") as f:
             for item in new_articles:
                 f.write(json.dumps(item, ensure_ascii=False) + "\n")
                 
@@ -187,7 +188,7 @@ def sync_cycle(config, env_vars, output_path):
             "lastSyncedTime": datetime.now().isoformat(),
             "new_synced_count": len(new_articles)
         }
-        with open(PROGRESS_PATH, "w", encoding="utf-8") as f:
+        with open(PROGRESS_PATH, "w", encoding="utf-8", errors="replace") as f:
             json.dump(progress_data, f, indent=2, ensure_ascii=False)
             
         run_preprocess_script()

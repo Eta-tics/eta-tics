@@ -19,7 +19,7 @@ def preprocess():
     univ_counts = defaultdict(int)
     hourly_activity = [0] * 24
     
-    with open(input_file, "r", encoding="utf-8") as f:
+    with open(input_file, "r", encoding="utf-8", errors="replace") as f:
         for line in f:
             line = line.strip()
             if not line:
@@ -73,7 +73,7 @@ def preprocess():
     # Ensure directory exists
     os.makedirs(output_dir, exist_ok=True)
     
-    with open(output_file, "w", encoding="utf-8") as f:
+    with open(output_file, "w", encoding="utf-8", errors="replace") as f:
         json.dump(output_data, f, indent=2, ensure_ascii=False)
         
     print(f"[+] Done! Analyzed {total_posts} posts across {len(universities_list)} universities.")
