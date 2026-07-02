@@ -1,183 +1,187 @@
 {
-  "total_posts": 31741,
+  "total_posts": 32954,
   "unique_universities": 271,
-  "updated_at": "2026-07-03T00:16:58.390320",
+  "updated_at": "2026-07-03T00:46:21.934470",
   "universities": [
     {
       "name": "서울대",
-      "post_count": 1815
+      "post_count": 1883
     },
     {
       "name": "영남대",
-      "post_count": 1353
+      "post_count": 1374
     },
     {
       "name": "한양대 서울캠",
-      "post_count": 1182
+      "post_count": 1213
     },
     {
       "name": "경북대 대구캠",
-      "post_count": 1026
+      "post_count": 1054
     },
     {
       "name": "중앙대 서울캠",
-      "post_count": 999
+      "post_count": 1028
     },
     {
       "name": "부산대",
-      "post_count": 971
+      "post_count": 998
     },
     {
       "name": "성균관대 자과캠",
-      "post_count": 903
+      "post_count": 951
     },
     {
       "name": "연세대 신촌캠",
-      "post_count": 868
-    },
-    {
-      "name": "고려대 서울캠",
-      "post_count": 801
+      "post_count": 912
     },
     {
       "name": "경희대 국제캠",
-      "post_count": 793
+      "post_count": 828
+    },
+    {
+      "name": "고려대 서울캠",
+      "post_count": 821
     },
     {
       "name": "경상국립대",
-      "post_count": 658
+      "post_count": 672
     },
     {
       "name": "한국외대 서울캠",
-      "post_count": 650
+      "post_count": 664
     },
     {
       "name": "서강대",
-      "post_count": 592
+      "post_count": 620
     },
     {
       "name": "KAIST",
-      "post_count": 589
+      "post_count": 613
     },
     {
       "name": "전남대 광주캠",
-      "post_count": 588
+      "post_count": 612
     },
     {
       "name": "동국대 서울캠",
-      "post_count": 565
-    },
-    {
-      "name": "홍익대 서울캠",
-      "post_count": 559
+      "post_count": 592
     },
     {
       "name": "경희대 서울캠",
-      "post_count": 549
+      "post_count": 584
+    },
+    {
+      "name": "홍익대 서울캠",
+      "post_count": 574
     },
     {
       "name": "강원대 춘천캠",
-      "post_count": 543
-    },
-    {
-      "name": "전북대",
-      "post_count": 517
+      "post_count": 559
     },
     {
       "name": "충남대",
-      "post_count": 513
+      "post_count": 548
+    },
+    {
+      "name": "전북대",
+      "post_count": 527
     },
     {
       "name": "건국대 서울캠",
-      "post_count": 497
+      "post_count": 522
     },
     {
       "name": "충북대",
-      "post_count": 464
-    },
-    {
-      "name": "한국외대 글로벌캠",
-      "post_count": 453
+      "post_count": 487
     },
     {
       "name": "국립부경대",
-      "post_count": 445
+      "post_count": 466
+    },
+    {
+      "name": "한국외대 글로벌캠",
+      "post_count": 454
     },
     {
       "name": "계명대",
-      "post_count": 406
+      "post_count": 421
     },
     {
       "name": "서울과기대",
-      "post_count": 393
+      "post_count": 398
     },
     {
       "name": "고려대 세종캠",
-      "post_count": 382
+      "post_count": 386
     },
     {
       "name": "인하대",
-      "post_count": 363
+      "post_count": 374
     },
     {
       "name": "성균관대 인사캠",
-      "post_count": 350
+      "post_count": 367
     },
     {
       "name": "세종대",
-      "post_count": 345
+      "post_count": 364
     },
     {
       "name": "한양대 ERICA캠",
-      "post_count": 334
+      "post_count": 356
     },
     {
       "name": "숙명여대",
-      "post_count": 314
+      "post_count": 324
     },
     {
       "name": "숭실대",
-      "post_count": 301
+      "post_count": 310
     },
     {
       "name": "국립금오공대",
-      "post_count": 279
-    },
-    {
-      "name": "연세대 미래캠",
-      "post_count": 263
+      "post_count": 281
     },
     {
       "name": "서울시립대",
-      "post_count": 258
+      "post_count": 265
+    },
+    {
+      "name": "연세대 미래캠",
+      "post_count": 264
     },
     {
       "name": "단국대 죽전캠",
-      "post_count": 253
+      "post_count": 258
     },
     {
       "name": "가천대",
-      "post_count": 224
-    },
-    {
-      "name": "울산대",
-      "post_count": 215
+      "post_count": 235
     },
     {
       "name": "아주대",
-      "post_count": 210
+      "post_count": 219
+    },
+    {
+      "name": "울산대",
+      "post_count": 217
     },
     {
       "name": "제주대",
-      "post_count": 209
+      "post_count": 215
     },
     {
       "name": "인천대",
-      "post_count": 207
+      "post_count": 213
     },
     {
       "name": "대구가톨릭대",
-      "post_count": 196
+      "post_count": 202
+    },
+    {
+      "name": "성신여대",
+      "post_count": 183
     },
     {
       "name": "국립강릉원주대 강릉캠",
@@ -185,206 +189,222 @@
     },
     {
       "name": "한국항공대",
-      "post_count": 178
-    },
-    {
-      "name": "성신여대",
-      "post_count": 172
-    },
-    {
-      "name": "국립한밭대",
-      "post_count": 156
-    },
-    {
-      "name": "동덕여대",
-      "post_count": 150
-    },
-    {
-      "name": "가톨릭대",
-      "post_count": 146
+      "post_count": 179
     },
     {
       "name": "경기대 수원캠",
-      "post_count": 145
+      "post_count": 174
     },
     {
-      "name": "상명대 천안캠",
-      "post_count": 143
+      "name": "국립한밭대",
+      "post_count": 162
     },
     {
-      "name": "대구경북과기원",
-      "post_count": 141
+      "name": "동덕여대",
+      "post_count": 161
     },
     {
       "name": "국민대",
-      "post_count": 140
+      "post_count": 160
     },
     {
-      "name": "수원대",
-      "post_count": 129
+      "name": "대구경북과기원",
+      "post_count": 150
+    },
+    {
+      "name": "상명대 천안캠",
+      "post_count": 149
+    },
+    {
+      "name": "가톨릭대",
+      "post_count": 147
     },
     {
       "name": "포항공대",
-      "post_count": 128
+      "post_count": 132
+    },
+    {
+      "name": "수원대",
+      "post_count": 131
     },
     {
       "name": "서울여대",
-      "post_count": 124
+      "post_count": 130
     },
     {
       "name": "동의대",
-      "post_count": 123
+      "post_count": 128
+    },
+    {
+      "name": "원광대",
+      "post_count": 126
     },
     {
       "name": "상명대 서울캠",
+      "post_count": 124
+    },
+    {
+      "name": "청강문화산업대",
       "post_count": 122
+    },
+    {
+      "name": "진주교대",
+      "post_count": 122
+    },
+    {
+      "name": "이화여대",
+      "post_count": 119
     },
     {
       "name": "배재대",
       "post_count": 119
     },
     {
-      "name": "진주교대",
-      "post_count": 119
-    },
-    {
-      "name": "청강문화산업대",
+      "name": "한양여대",
       "post_count": 118
     },
     {
       "name": "국립공주대",
-      "post_count": 114
-    },
-    {
-      "name": "원광대",
-      "post_count": 112
+      "post_count": 117
     },
     {
       "name": "조선대",
       "post_count": 110
     },
     {
-      "name": "한양여대",
-      "post_count": 105
-    },
-    {
-      "name": "이화여대",
-      "post_count": 104
-    },
-    {
-      "name": "한국공학대",
-      "post_count": 98
-    },
-    {
       "name": "국립창원대",
-      "post_count": 94
+      "post_count": 103
     },
     {
       "name": "국립한국해양대",
-      "post_count": 90
+      "post_count": 102
+    },
+    {
+      "name": "한국공학대",
+      "post_count": 101
     },
     {
       "name": "전남대 여수캠",
-      "post_count": 87
-    },
-    {
-      "name": "동국대 WISE캠",
-      "post_count": 86
+      "post_count": 89
     },
     {
       "name": "덕성여대",
+      "post_count": 89
+    },
+    {
+      "name": "동국대 WISE캠",
+      "post_count": 89
+    },
+    {
+      "name": "우송대",
       "post_count": 83
     },
     {
       "name": "경북대 상주캠",
-      "post_count": 80
+      "post_count": 81
+    },
+    {
+      "name": "대구대",
+      "post_count": 79
     },
     {
       "name": "국립한국교통대",
       "post_count": 77
     },
     {
-      "name": "대구대",
-      "post_count": 74
+      "name": "단국대 천안캠",
+      "post_count": 77
+    },
+    {
+      "name": "홍익대 세종캠",
+      "post_count": 76
+    },
+    {
+      "name": "백석대",
+      "post_count": 75
+    },
+    {
+      "name": "숭의여대",
+      "post_count": 75
     },
     {
       "name": "삼육대",
       "post_count": 74
     },
     {
-      "name": "숭의여대",
-      "post_count": 74
-    },
-    {
-      "name": "홍익대 세종캠",
-      "post_count": 73
-    },
-    {
-      "name": "백석대",
-      "post_count": 72
-    },
-    {
       "name": "건국대 GLOCAL캠",
-      "post_count": 72
+      "post_count": 73
     },
     {
       "name": "국립경국대 안동캠",
       "post_count": 70
     },
     {
-      "name": "단국대 천안캠",
-      "post_count": 70
-    },
-    {
-      "name": "우송대",
+      "name": "광운대",
       "post_count": 69
     },
     {
-      "name": "광운대",
+      "name": "동아대",
       "post_count": 66
     },
     {
       "name": "한림대",
-      "post_count": 63
+      "post_count": 66
     },
     {
       "name": "경복대",
-      "post_count": 62
-    },
-    {
-      "name": "동아대",
-      "post_count": 61
-    },
-    {
-      "name": "동양미래대",
-      "post_count": 60
+      "post_count": 63
     },
     {
       "name": "명지대 자연캠",
+      "post_count": 63
+    },
+    {
+      "name": "동양미래대",
+      "post_count": 61
+    },
+    {
+      "name": "동양대",
       "post_count": 59
+    },
+    {
+      "name": "인하공업전문대",
+      "post_count": 59
+    },
+    {
+      "name": "한성대",
+      "post_count": 56
     },
     {
       "name": "삼육보건대",
       "post_count": 56
     },
     {
-      "name": "인하공업전문대",
-      "post_count": 54
+      "name": "한신대",
+      "post_count": 56
+    },
+    {
+      "name": "광주과기원",
+      "post_count": 53
     },
     {
       "name": "국립순천대",
       "post_count": 53
     },
     {
-      "name": "한성대",
+      "name": "경인교대",
       "post_count": 51
     },
     {
-      "name": "광주과기원",
-      "post_count": 51
+      "name": "건양대",
+      "post_count": 50
     },
     {
       "name": "부천대",
+      "post_count": 49
+    },
+    {
+      "name": "인덕대",
       "post_count": 49
     },
     {
@@ -396,31 +416,19 @@
       "post_count": 48
     },
     {
-      "name": "건양대",
-      "post_count": 48
-    },
-    {
-      "name": "한신대",
-      "post_count": 47
-    },
-    {
-      "name": "동양대",
-      "post_count": 47
-    },
-    {
       "name": "UNIST",
-      "post_count": 46
+      "post_count": 47
     },
     {
-      "name": "호서대",
-      "post_count": 45
-    },
-    {
-      "name": "경인교대",
-      "post_count": 45
+      "name": "한남대",
+      "post_count": 47
     },
     {
       "name": "경인여대",
+      "post_count": 47
+    },
+    {
+      "name": "호서대",
       "post_count": 45
     },
     {
@@ -428,27 +436,19 @@
       "post_count": 44
     },
     {
-      "name": "인덕대",
-      "post_count": 44
-    },
-    {
       "name": "신한대",
       "post_count": 44
     },
     {
-      "name": "한남대",
-      "post_count": 42
-    },
-    {
       "name": "국립목포해양대",
-      "post_count": 38
-    },
-    {
-      "name": "협성대",
-      "post_count": 35
+      "post_count": 40
     },
     {
       "name": "수원여대",
+      "post_count": 37
+    },
+    {
+      "name": "협성대",
       "post_count": 35
     },
     {
@@ -456,12 +456,20 @@
       "post_count": 35
     },
     {
+      "name": "광주여대",
+      "post_count": 35
+    },
+    {
       "name": "추계예대",
       "post_count": 35
     },
     {
-      "name": "광주여대",
+      "name": "안양대",
       "post_count": 34
+    },
+    {
+      "name": "청주대",
+      "post_count": 33
     },
     {
       "name": "서울한영대",
@@ -470,10 +478,6 @@
     {
       "name": "경동대 원주캠",
       "post_count": 33
-    },
-    {
-      "name": "청주대",
-      "post_count": 32
     },
     {
       "name": "부산외대",
@@ -488,15 +492,19 @@
       "post_count": 30
     },
     {
-      "name": "안양대",
+      "name": "동아방송예대",
       "post_count": 30
     },
     {
-      "name": "동아방송예대",
-      "post_count": 29
+      "name": "신성대",
+      "post_count": 30
     },
     {
       "name": "강남대",
+      "post_count": 29
+    },
+    {
+      "name": "한국기술교대",
       "post_count": 28
     },
     {
@@ -505,6 +513,10 @@
     },
     {
       "name": "나사렛대",
+      "post_count": 27
+    },
+    {
+      "name": "인제대",
       "post_count": 26
     },
     {
@@ -516,15 +528,11 @@
       "post_count": 26
     },
     {
-      "name": "신성대",
-      "post_count": 26
-    },
-    {
-      "name": "유한대",
+      "name": "중앙대 다빈치캠",
       "post_count": 25
     },
     {
-      "name": "한국기술교대",
+      "name": "유한대",
       "post_count": 25
     },
     {
@@ -532,40 +540,36 @@
       "post_count": 25
     },
     {
-      "name": "인제대",
+      "name": "전주교대",
       "post_count": 24
     },
     {
-      "name": "중앙대 다빈치캠",
-      "post_count": 24
+      "name": "한라대",
+      "post_count": 23
     },
     {
       "name": "영산대",
       "post_count": 23
     },
     {
-      "name": "전주교대",
+      "name": "세명대",
       "post_count": 22
     },
     {
-      "name": "세명대",
+      "name": "동명대",
       "post_count": 21
     },
     {
-      "name": "동명대",
-      "post_count": 20
-    },
-    {
-      "name": "한라대",
-      "post_count": 20
+      "name": "경기과기대",
+      "post_count": 21
     },
     {
       "name": "선문대",
       "post_count": 19
     },
     {
-      "name": "경기과기대",
-      "post_count": 18
+      "name": "공주교대",
+      "post_count": 19
     },
     {
       "name": "성공회대",
@@ -580,7 +584,15 @@
       "post_count": 17
     },
     {
+      "name": "서울여자간호대",
+      "post_count": 17
+    },
+    {
       "name": "강원대 삼척도계캠",
+      "post_count": 17
+    },
+    {
+      "name": "경남대",
       "post_count": 17
     },
     {
@@ -588,11 +600,15 @@
       "post_count": 17
     },
     {
-      "name": "영진전문대",
+      "name": "한경국립대",
       "post_count": 16
     },
     {
-      "name": "서울여자간호대",
+      "name": "호남대",
+      "post_count": 16
+    },
+    {
+      "name": "영진전문대",
       "post_count": 16
     },
     {
@@ -600,11 +616,7 @@
       "post_count": 16
     },
     {
-      "name": "한경국립대",
-      "post_count": 15
-    },
-    {
-      "name": "호남대",
+      "name": "계원예대",
       "post_count": 14
     },
     {
@@ -616,11 +628,7 @@
       "post_count": 14
     },
     {
-      "name": "경남대",
-      "post_count": 14
-    },
-    {
-      "name": "공주교대",
+      "name": "명지전문대",
       "post_count": 14
     },
     {
@@ -632,20 +640,20 @@
       "post_count": 13
     },
     {
-      "name": "명지전문대",
+      "name": "한국예술종합학교",
       "post_count": 13
+    },
+    {
+      "name": "대진대",
+      "post_count": 12
+    },
+    {
+      "name": "두원공대",
+      "post_count": 12
     },
     {
       "name": "김해대",
       "post_count": 12
-    },
-    {
-      "name": "계원예대",
-      "post_count": 11
-    },
-    {
-      "name": "대진대",
-      "post_count": 11
     },
     {
       "name": "마산대",
@@ -656,19 +664,11 @@
       "post_count": 11
     },
     {
-      "name": "두원공대",
-      "post_count": 11
-    },
-    {
       "name": "국제대",
       "post_count": 11
     },
     {
       "name": "대림대",
-      "post_count": 11
-    },
-    {
-      "name": "한국예술종합학교",
       "post_count": 11
     },
     {
@@ -685,7 +685,11 @@
     },
     {
       "name": "중원대",
-      "post_count": 9
+      "post_count": 10
+    },
+    {
+      "name": "남부대",
+      "post_count": 10
     },
     {
       "name": "서경대",
@@ -697,6 +701,10 @@
     },
     {
       "name": "서원대",
+      "post_count": 9
+    },
+    {
+      "name": "동의과학대",
       "post_count": 9
     },
     {
@@ -713,6 +721,10 @@
     },
     {
       "name": "동서울대",
+      "post_count": 8
+    },
+    {
+      "name": "동서대",
       "post_count": 8
     },
     {
@@ -736,12 +748,12 @@
       "post_count": 7
     },
     {
-      "name": "동서대",
+      "name": "광주교대",
       "post_count": 7
     },
     {
-      "name": "광주교대",
-      "post_count": 7
+      "name": "을지대 의정부/대전캠",
+      "post_count": 6
     },
     {
       "name": "서울신학대",
@@ -749,6 +761,14 @@
     },
     {
       "name": "가톨릭꽃동네대",
+      "post_count": 6
+    },
+    {
+      "name": "제주한라대",
+      "post_count": 6
+    },
+    {
+      "name": "강서대",
       "post_count": 6
     },
     {
@@ -764,8 +784,16 @@
       "post_count": 6
     },
     {
+      "name": "울산과학대",
+      "post_count": 6
+    },
+    {
       "name": "한동대",
       "post_count": 6
+    },
+    {
+      "name": "한서대",
+      "post_count": 5
     },
     {
       "name": "재능대",
@@ -780,19 +808,11 @@
       "post_count": 5
     },
     {
-      "name": "제주한라대",
-      "post_count": 5
-    },
-    {
       "name": "대구과학대",
       "post_count": 5
     },
     {
       "name": "초당대",
-      "post_count": 5
-    },
-    {
-      "name": "강서대",
       "post_count": 5
     },
     {
@@ -818,10 +838,6 @@
     {
       "name": "대덕대",
       "post_count": 5
-    },
-    {
-      "name": "한서대",
-      "post_count": 4
     },
     {
       "name": "안산대",
@@ -852,10 +868,6 @@
       "post_count": 4
     },
     {
-      "name": "울산과학대",
-      "post_count": 4
-    },
-    {
       "name": "한국영상대",
       "post_count": 4
     },
@@ -866,10 +878,6 @@
     {
       "name": "창신대",
       "post_count": 4
-    },
-    {
-      "name": "을지대 의정부/대전캠",
-      "post_count": 3
     },
     {
       "name": "청주교대",
@@ -913,10 +921,6 @@
     },
     {
       "name": "강릉영동대",
-      "post_count": 3
-    },
-    {
-      "name": "남부대",
       "post_count": 3
     },
     {
@@ -973,10 +977,6 @@
     },
     {
       "name": "대전과기대",
-      "post_count": 2
-    },
-    {
-      "name": "동의과학대",
       "post_count": 2
     },
     {
@@ -1089,7 +1089,7 @@
     }
   ],
   "hourly_activity": [
-    1734,
+    2947,
     948,
     849,
     769,
