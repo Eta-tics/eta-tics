@@ -116,7 +116,7 @@ def sync_cycle(config, env_vars, output_path):
                     api_url, 
                     headers=headers, 
                     json=payload, 
-                    timeout=15
+                    timeout=45
                 )
                 if response.status_code != 200:
                     print(f"[!] HTTP Error {response.status_code} on attempt {attempt + 1}")
